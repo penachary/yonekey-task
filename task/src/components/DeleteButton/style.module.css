@@ -1,0 +1,7 @@
+.deleteButton {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgb(162, 4, 4);
+  color: rgb(24, 17, 17);
+  z-index: 20;
+}

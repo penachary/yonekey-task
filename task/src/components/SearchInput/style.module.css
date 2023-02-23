@@ -1,0 +1,14 @@
+.searchInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchInput input {
+  margin-top: 2rem;
+  width: 20rem;
+  height: 2rem;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,9 @@
+.modal {
+  width: 70rem;
+  background-color: rgb(234, 250, 245);
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  z-index: 1;
+}
