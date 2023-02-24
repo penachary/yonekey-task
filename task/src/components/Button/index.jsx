@@ -13,8 +13,6 @@ export const Button = observer(({ number }) => {
   const numberOfPages = postStore.getKey(PostStoreKeys.numberOfPages);
 
   const onClickHandler = () => {
-    // if (lastPage === numberOfPages) return;
-
     let pageNumber = 0;
     switch (number) {
       case buttonKeys.first:

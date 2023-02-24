@@ -14,12 +14,6 @@ export const Posts = observer(() => {
   const loading = postStore.getKey(PostStoreKeys.loading);
 
   useEffect(() => {
-    // async function fetchPosts() {
-    //   const dataList = await getList(`${baseUrl}?_page=1&_limit=20`);
-    //   postStore.setPosts(dataList);
-    // }
-    // fetchPosts();
-
     async function fetchAllPosts() {
       const dataList = await getList("posts");
       postStore.setAllPosts(dataList);

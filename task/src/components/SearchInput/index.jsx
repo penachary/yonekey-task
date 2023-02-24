@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { Mycontext } from "../../App";
 import { getList } from "../../config";
-import { PostStoreKeys } from "../../store/PostStore";
 import style from "./style.module.css";
 
 function SearchInput() {

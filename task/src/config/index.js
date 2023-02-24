@@ -1,4 +1,3 @@
-// export const baseUrl = "http://jsonplaceholder.typicode.com/posts";
 export const baseUrl = "https://jsonplaceholder.typicode.com/";
 
 export async function getList(url) {

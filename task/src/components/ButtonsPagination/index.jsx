@@ -19,15 +19,6 @@ export const ButtonPagination = observer(() => {
 
   const myButtons = [...Array(numberOfPages).keys()].map((n) => n + 1);
 
-  // let buttons;
-
-  // if (lastPage === 1) {
-  //   buttons = myButtons.filter((button) => button.i > 2);
-  // } else if (lastPage === 5) {
-  //   buttons = myButtons.filter((button) => button.i < 6);
-  // } else {
-  //   buttons = myButtons.filter((button) => Number(button.title) != lastPage);
-  // }
   if (numberOfPages)
     return (
       <div className={style.container}>
