@@ -1,5 +1,5 @@
 import cn from "classnames";
-import DeleteButton from "../DeleteButton";
+import { DeleteButton } from "../DeleteButton";
 import style from "./style.module.css";
 
 export default function Post({ post }) {

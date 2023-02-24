@@ -1,5 +1,5 @@
 // export const baseUrl = "http://jsonplaceholder.typicode.com/posts";
-export const baseUrl = "http://localhost:4000/";
+export const baseUrl = "https://jsonplaceholder.typicode.com/";
 
 export async function getList(url) {
   return await fetch(`${baseUrl}${url}`)
